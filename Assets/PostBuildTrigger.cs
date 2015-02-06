@@ -1,6 +1,7 @@
   using UnityEngine;
 	using UnityEditor;
 	using UnityEditor.Callbacks;
+	using System.IO;
 	
 	public static class PostBuildTrigger {
 		[PostProcessBuild]
